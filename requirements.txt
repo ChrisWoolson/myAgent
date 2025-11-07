@@ -7,6 +7,7 @@ httplib2==0.31.0
 requests==2.32.5
 requests-oauthlib==2.0.0
 oauthlib==3.3.1
+flask==2.3.3
 # Optional/dev: protobuf, cachetools
 protobuf==6.33.0
 cachetools==6.2.1
