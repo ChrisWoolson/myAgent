@@ -51,4 +51,4 @@ def webhook_handler():
 
 if __name__ == "__main__":
     # This part is only for local testing, NOT for production
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000)
