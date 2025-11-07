@@ -37,7 +37,7 @@ def webhook_handler():
             chat_id = data["message"]["chat"]["id"]
             text = data["message"]["text"]
             
-            print(f"Received from {chat_id}: {text}")
+            print(f"Received from {chat_id}: {text}", flush=True)
             
             # --- YOUR PYTHON PROJECT LOGIC GOES HERE ---
             # For this example, we'll just echo the message
